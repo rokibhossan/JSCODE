@@ -4,7 +4,7 @@ const myPromise = new Promise((resolve, reject)=>{
 
     if(state == 'fulfiled'){
         setTimeout(() => {
-            resolve("Yes! I have done it!")
+            resolve("Yes!")
         }, 2000);
     }
     else if(state == "rejected"){
